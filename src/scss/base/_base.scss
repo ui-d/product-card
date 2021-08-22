@@ -1,9 +1,9 @@
 body {
-  background: #f5f5f5;
+  background: $almost-white;
   padding: 50px;
 
   @media (prefers-color-scheme: dark) {
-    background: #606060;
+    background: $sand-gray;
   }
 }
 
@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 
   &:focus {
-    outline: 3px dashed #3B938A;
+    outline: 3px dashed $teal;
   }
 
   &:focus:not(:focus-visible) {
