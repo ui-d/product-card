@@ -39,7 +39,8 @@
       margin-bottom: 40px;
     }
 
-    &::after, &::before {
+    &::after,
+    &::before {
       content: "";
       display: table;
       clear: both;
@@ -137,7 +138,7 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    transition: color .2s ease-in-out;
+    transition: color 0.2s ease-in-out;
     padding: 0 10px;
 
     @media (prefers-color-scheme: dark) {
@@ -234,5 +235,4 @@
     margin-left: -4px;
     margin-right: 5px;
   }
-
 }

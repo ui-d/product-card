@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="This is an example of a meta description.">
     <title>Refurbed task</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <article class="product-card">
             <div class="product-card__wrapper">
                 <header class="product-card__header">
-                    <img width="20" height="20" class="product-card__logo" src="./src/assets/img/apple.svg" alt=""/>
+                    <img loading="lazy" width="20" height="20" class="product-card__logo" src="./src/assets/img/apple.svg" alt=""/>
                     <h2 class="product-card__header">iPhone 7</h2>
                 </header>
                 <div class="product-card__content">
@@ -21,18 +22,19 @@
                         <img loading="lazy" width="291" height="258"
                              src="./src/assets/img/iphone-7.jpeg"
                              alt="Apple iPhone 7"/>
-                        <p class="product-card__badge"><span class="product-card__saving">999 €</span> <br> sparen</p>
+                        <p aria-labelledby="Saving" class="product-card__badge"><span class="product-card__saving">999 €</span> <br> sparen</p>
                     </div>
                     <div class="product-card__info">
-                        <p class="product-card__price">9999.99 €</p>
-                        <del class="product-card__old-price">529.00 €</del>
+                        <p aria-labelledby="Current price" class="product-card__price">9999.99 €</p>
+                        <del aria-labelledby="Old price" class="product-card__old-price">529.00 €</del>
                         <p class="product-card__additional-info">Gratis Versand, inkl. MwSt.</p>
                     </div>
                 </div>
                 <footer class="product-card__footer">
-                    <a class="product-card__more product-card__more--flash" href="#">
+                    <a aria-labelledby="More information about product" class="product-card__more product-card__more--flash" href="#">
                         Details & Auswahl
-                        <img width="8" height="14" class="product-card__icon" src="./src/assets/img/arrow-right.svg" alt=""/></a>
+                        <img loading="lazy" width="8" height="14" class="product-card__icon" src="./src/assets/img/arrow-right.svg"
+                             alt=""/></a>
                 </footer>
             </div>
         </article>
