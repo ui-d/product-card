@@ -15,7 +15,7 @@
 
   &__wrapper {
     min-height: 460px;
-    padding: 13px 15px;
+    padding: 13px 25px;
 
     border: 1px solid $whitish;
     border-radius: 5px;
@@ -26,7 +26,8 @@
   }
 
   &__header {
-    margin-bottom: 22px;
+    margin-bottom: 25px;
+    margin-top: 12px;
 
     color: $almost-black;
     font-size: 1.8rem;
@@ -108,8 +109,8 @@
 
   &__badge {
     position: absolute;
-    right: -1%;
-    bottom: -21px;
+    right: 0;
+    bottom: -20px;
 
     width: 92px;
     height: 92px;
