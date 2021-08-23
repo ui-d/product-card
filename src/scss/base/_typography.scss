@@ -1,15 +1,15 @@
 @font-face {
-  font-display: swap;
+  font-weight: normal;
   font-family: 'Saira';
   font-style: normal;
-  font-weight: normal;
   src: url('../assets/fonts/SairaSemiCondensed-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
-  font-display: swap;
+  font-weight: 600;
   font-family: 'SairaSemiBold';
   font-style: normal;
-  font-weight: 600;
   src: url('../assets/fonts/SairaSemiCondensed-SemiBold.ttf') format('truetype');
+  font-display: swap;
 }
