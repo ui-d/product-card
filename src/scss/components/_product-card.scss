@@ -26,7 +26,7 @@
     margin-bottom: 22px;
     color: $almost-black;
     font-family: SairaSemiBold, sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 0.1px;
 
     @media (prefers-color-scheme: dark) {
@@ -59,22 +59,22 @@
     margin: 0;
     color: $teal;
     font-family: SairaSemiBold, sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     letter-spacing: 0.7px;
 
     @media screen and (min-width: $mobile-lg) {
-      font-size: 32px;
+      font-size: 3.2rem;
     }
   }
 
   &__old-price {
     color: $medium-gray;
-    font-size: 20px;
+    font-size: 2rem;
     letter-spacing: 0.6px;
     text-decoration: line-through;
 
     @media screen and (min-width: $mobile-lg) {
-      font-size: 23px;
+      font-size: 2.3rem;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -86,11 +86,11 @@
     margin-top: 3px;
     margin-bottom: 32px;
     color: $gray;
-    font-size: 12px;
+    font-size: 1.2rem;
 
     @media screen and (min-width: $mobile-lg) {
       margin-top: 10px;
-      font-size: 16px;
+      font-size: 1.6rem;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -109,7 +109,7 @@
     background-color: $teal;
     border-radius: 50%;
     color: $tealish;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 17px;
     text-align: center;
     transform: rotate(15deg);
@@ -125,7 +125,7 @@
   }
 
   &__saving {
-    font-size: 23px;
+    font-size: 2.3rem;
   }
 
   &__footer {
@@ -135,7 +135,7 @@
   &__more {
     padding: 0 10px;
     color: $electric-blue;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
