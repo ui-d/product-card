@@ -201,7 +201,7 @@
       min-height: 300px;
       border-radius: 15px;
       box-shadow: rgb(0 0 0 / 10%) 4px 5px 20px -4px;
-      -ms-box-shadow: rgb(0 0 0 / 10%) 4px 5px 20px 0px;
+      -ms-box-shadow: $light-gray 4px 5px 20px;
       float: left;
       transform: translate(-9%, 0);
     }
