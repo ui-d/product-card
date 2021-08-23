@@ -1,11 +1,11 @@
 .product-card {
-  font-family: 'Saira Semi Condensed';
+  font-family: 'Saira', sans-serif;
   background: $white;
   padding: 10px;
+  min-width: 250px;
   max-width: 500px;
   width: 100%;
   min-height: 479px;
-  min-width: 250px;
 
   @media (prefers-color-scheme: dark) {
     background: #2c2c2c;
@@ -23,11 +23,11 @@
   }
 
   &__header {
-    font-weight: 600;
+    font-family: SairaSemiBold, sans-serif;
     font-size: 18px;
     margin-bottom: 22px;
     letter-spacing: 0.1px;
-    color: #212121;
+    color: $almost-black;
 
     @media (prefers-color-scheme: dark) {
       color: $light-gray;
@@ -58,11 +58,11 @@
     letter-spacing: 0.7px;
     font-size: 25px;
     color: $teal;
-    font-weight: 600;
+    font-family: SairaSemiBold, sans-serif;
     margin: 0;
 
     @media screen and (min-width: $mobile-lg) {
-      font-size: 33px;
+      font-size: 32px;
     }
   }
 
@@ -199,10 +199,9 @@
       float: left;
       min-height: 300px;
       width: 65%;
-      box-shadow: rgb(0 0 0 / 12%) 0px 20px 30px;
-      -webkit-box-shadow: rgb(0 0 0 / 12%) 0px 20px 30px;
+      box-shadow: rgb(0 0 0 / 10%) 4px 5px 20px -4px;
       border-radius: 15px;
-      transform: translate(-12%, 0);
+      transform: translate(-9%, 0);
     }
 
     img {
